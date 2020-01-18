@@ -1,0 +1,19 @@
+ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  list-style: none;
+}
+
+li.dev-item {
+  background: white;
+  box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 2px;
+  padding: 20px;
+}
+
+@media (max-width: 650px) {
+  ul {
+    grid-template-columns: 1fr;
+  }
+}
